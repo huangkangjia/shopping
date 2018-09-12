@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/classify/main",
+    "pages/cart/main",
+    "pages/me/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff2d4a",
+    "navigationBarTitleText": "优购",
+    "navigationBarTextStyle": "white"
+  }, 
+  "tabBar": {
+    "color": "",
+    "selectedColor": "#0f0",
+
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页",
+        "iconPath": "/static/image/icon/icon_home@3x.png",
+        "selectedIconPath": "/static/image/icon/icon_home_active@3x.png"
+        
+      },
+      {
+        "pagePath": "pages/classify/main",
+        "text": "分类",
+        "iconPath": "/static/image/icon/icon_category@3x.png",
+        "selectedIconPath": "/static/image/icon/icon_category_active@3x.png"
+        
+      },
+      {
+        "pagePath": "pages/cart/main",
+        "text": "购物车",
+        "iconPath": "/static/image/icon/icon_cart@3x.png",
+        "selectedIconPath": "/static/image/icon/icon_cart_active@3x.png"
+        
+      },
+      {
+        "pagePath": "pages/me/main",
+        "text": "我的",
+        "iconPath": "/static/image/icon/icon_me@3x.png",
+        "selectedIconPath": "/static/image/icon/icon_me_active@3x.png"
+        
+      }
+    ]
+  }
+  
+}
